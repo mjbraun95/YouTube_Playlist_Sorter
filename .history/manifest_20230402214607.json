@@ -5,7 +5,7 @@
     "description": "Sorts YouTube playlists alphabetically when saving videos.",
     "permissions": [
         "activeTab"
-    ],
+      ],
     "action": {
       "default_popup": "popup.html",
       "default_icon": {
