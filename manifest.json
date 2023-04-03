@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "YouTube Playlist Sorter",
+  "version": "1.0",
+  "description": "Sorts YouTube playlists alphabetically when saving videos.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "permissions": [
+    "https://www.youtube.com/"
+  ]
+}
